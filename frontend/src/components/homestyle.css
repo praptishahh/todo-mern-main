@@ -1,0 +1,56 @@
+.all-todos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 500px;
+    font-family: 'Lucida Sans';
+    font-size: 1.2em;
+  }
+  
+  .one-todo {
+    margin-bottom: 10px;
+  }
+  
+  .task-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .update-button,
+  .delete-button {
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans';
+    font-size: 0.6em;
+    color: #030303;
+  }
+  
+  .update-button {
+    background-color: #0d9401 ;
+  }
+  
+  .delete-button {
+    background-color: #e01903;
+  }
+  
+  li {
+    color:#83764F;
+    font-family: 'Lucida Sans';
+    font-size: 1.5em;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #83764F;
+    font-family: 'Lucida Sans';
+    font-size: 2em;
+  }
+  
